@@ -16,8 +16,8 @@ import Login from './components/Login.vue'
       <Login msg="Welcome to Food for All!" />
 
       <nav>
-        <RouterLink to="/">Login</RouterLink>
-        <RouterLink to="/about">Register</RouterLink>
+        <RouterLink to="/loginUser">Login</RouterLink>
+        <RouterLink to="/registerNewUser">Register</RouterLink>
       </nav>
     </div>
   </header>
@@ -34,6 +34,7 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  width: 100px;
 }
 
 nav {
